@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/birthday-card-app/",
   plugins: [react(), tailwindcss()],
+  base: "/birthday-card/",
 });
